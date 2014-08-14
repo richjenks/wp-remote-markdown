@@ -2,6 +2,9 @@
 
 Gets markdown files hosted remotely and parses their contents. Originally made for embedding GitHub readmes into pages.
 
+- [GitHub repo](https://github.com/richjenks/wp-remote-markdown)
+- [Plugin page](https://richjenks.com/dev/wp/remote-markdown/)
+
 ## Usage
 
 ```
