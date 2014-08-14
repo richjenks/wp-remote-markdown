@@ -12,3 +12,11 @@
 
 namespace RichJenks\WPRemoteMarkdown;
 
+require_once __DIR__.'/parsedown/Parsedown.php';
+
+add_shortcode( 'remote-markdown', function($atts) {
+	if ( isset( $atts['url'] ) ) {
+		$Parsedown = new \Parsedown();
+		return $Parsedown->text( file_get_contents( $atts['url'] ) );
+	}
+} );
