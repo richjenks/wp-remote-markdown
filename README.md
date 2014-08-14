@@ -1,6 +1,8 @@
 # Remote Markdown
 
-Gets markdown files hosted remotely and parses their contents. Originally made for embedding GitHub readmes into pages.
+Gets markdown files hosted remotely and parses their contents.
+
+Uses the [Parsedown Markdown Parser](http://parsedown.org/) (which supports [GitHub Flavored Markdown](https://help.github.com/articles/github-flavored-markdown)), it was originally made for embedding GitHub readmes into pages.
 
 - [GitHub repo](https://github.com/richjenks/wp-remote-markdown)
 - [Plugin page](https://richjenks.com/dev/wp/remote-markdown/)
