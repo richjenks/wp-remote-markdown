@@ -11,8 +11,7 @@
  */
 
 namespace RichJenks\WPRemoteMarkdown;
-
-require_once __DIR__.'/parsedown/Parsedown.php';
+if ( !class_exists('Parsedown') ) require_once __DIR__.'/parsedown/Parsedown.php';
 
 add_shortcode( 'remote-markdown', function($atts) {
 	if ( isset( $atts['url'] ) ) {
