@@ -2,7 +2,7 @@
 
 /**
  * Plugin Name: Remote Markdown
- * Plugin URI: https://richjenks.com/dev/wp/remote-markdown/
+ * Plugin URI: https://github.com/richjenks/wp-remote-markdown/
  * Description: Gets markdown files hosted remotely and parses their contents
  * Version: 1.0
  * Author: Rich Jenks <rich@richjenks.com>
